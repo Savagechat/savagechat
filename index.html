@@ -8,7 +8,7 @@
   <style>
     :root {
       --bg: #ffffff;
-      --text: #7a0b0b;      /* dark red */
+      --text: #7a0b0b;
       --muted: #9b1c1c;
       --border: #e5e5e5;
     }
@@ -31,12 +31,13 @@
       text-align: center;
     }
 
-    .title {
-      font-size: clamp(44px, 8vw, 80px);
-      font-weight: 900;
-      letter-spacing: 0.14em;
-      margin-bottom: 28px;
-      text-transform: uppercase;
+    /* Logo replaces the heading */
+    .logo {
+      width: clamp(240px, 50vw, 420px);
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto 28px;
     }
 
     .card {
@@ -88,7 +89,12 @@
 <body>
   <main class="wrap">
 
-    <div class="title">SAVAGE CHAT</div>
+    <!-- Savage Chat Logo -->
+    <img
+      src="savageTransp.png"
+      alt="Savage Chat logo"
+      class="logo"
+    />
 
     <section class="card">
       <p>
