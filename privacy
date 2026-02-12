@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Savage Chat — Privacy Policy</title>
+  <meta name="description" content="Savage Chat Privacy Policy" />
+  <style>
+    :root{
+      --bg:#ffffff;
+      --text:#111111;
+      --muted:#555555;
+      --accent:#7b0014; /* dark red */
+      --card:#f6f6f6;
+      --border:#e6e6e6;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+      background:var(--bg);
+      color:var(--text);
+      line-height:1.55;
+    }
+    header{
+      padding:28px 16px 10px;
+      border-bottom:1px solid var(--border);
+      background:linear-gradient(180deg,#fff, #fff8f9);
+    }
+    .wrap{max-width:860px;margin:0 auto;padding:0 16px}
+    .brand{
+      display:flex;
+      align-items:center;
+      gap:14px;
+      justify-content:center;
+      text-align:center;
+      flex-wrap:wrap;
+    }
+    .brand img{
+      height:68px;
+      width:auto;
+      display:block;
+    }
+    h1{
+      margin:0;
+      font-size:24px;
+      letter-spacing:0.2px;
+      color:var(--accent);
+    }
+    .sub{
+      margin:10px auto 0;
+      max-width:720px;
+      text-align:center;
+      color:var(--muted);
+      font-size:14px;
+    }
+    main{padding:24px 0 40px}
+    .card{
+      background:var(--card);
+      border:1px solid var(--border);
+      border-radius:16px;
+      padding:18px;
+      margin:14px 0;
+    }
+    h2{
+      margin:18px 0 8px;
+      font-size:18px;
+      color:var(--accent);
+    }
+    p{margin:10px 0}
+    ul{margin:10px 0 10px 18px}
+    li{margin:6px 0}
+    a{color:var(--accent);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .pill{
+      display:inline-block;
+      padding:6px 10px;
+      border-radius:999px;
+      background:#fff;
+      border:1px solid var(--border);
+      color:var(--muted);
+      font-size:12px;
+    }
+    footer{
+      padding:22px 0 34px;
+      border-top:1px solid var(--border);
+      color:var(--muted);
+      font-size:13px;
+    }
+    .small{font-size:12px;color:var(--muted)}
+    code{
+      background:#fff;
+      border:1px solid var(--border);
+      border-radius:8px;
+      padding:2px 6px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      font-size: 12px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <div class="brand">
+        <!-- ✅ Put your logo file in the same GitHub Pages folder/repo root -->
+        <img src="savageTransp.png" alt="Savage Chat logo" />
+        <h1>Privacy Policy</h1>
+      </div>
+      <p class="sub">
+        Savage Chat is designed to be simple, fast, and privacy-minded.
+        This policy explains what we collect, why we collect it, and your choices.
+      </p>
+      <p class="sub"><span class="pill">Last updated: 12 February 2026</span></p>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrap">
+
+      <div class="card">
+        <h2>Summary</h2>
+        <ul>
+          <li>We do not sell your personal data.</li>
+          <li>We only collect what we need to operate the app and improve reliability.</li>
+          <li>Payments are handled by Apple. We do not store your card details.</li>
+          <li>You can request deletion of certain data by contacting us.</li>
+        </ul>
+      </div>
+
+      <h2>Who we are</h2>
+      <p>
+        This Privacy Policy applies to <strong>Savage Chat</strong> (the “App”).
+        If you have questions, contact us at
+        <a href="mailto:savagechat@mail.com">savagechat@mail.com</a>.
+      </p>
+
+      <h2>Information we collect</h2>
+      <div class="card">
+        <p><strong>1) Information you provide</strong></p>
+        <ul>
+          <li><strong>Chat content</strong> you type into the App.</li>
+          <li><strong>Support messages</strong> if you email us.</li>
+        </ul>
+
+        <p><strong>2) Purchases and subscriptions</strong></p>
+        <ul>
+          <li>Subscription purchases are processed by Apple via In-App Purchase.</li>
+          <li>We may receive basic purchase/entitlement status (e.g., whether Ultra is active) to unlock features.</li>
+        </ul>
+
+        <p><strong>3) Usage & diagnostics (optional / minimal)</strong></p>
+        <ul>
+          <li>App performance and crash information to improve stability.</li>
+          <li>Basic analytics (e.g., feature usage) if enabled on your device.</li>
+        </ul>
+
+        <p class="small">
+          Note: Exact data collected can depend on the services you enable (e.g., device analytics settings) and app configuration.
+        </p>
+      </div>
+
+      <h2>How we use your information</h2>
+      <ul>
+        <li>To provide the chat experience and deliver responses.</li>
+        <li>To process and verify subscription access (via Apple).</li>
+        <li>To prevent abuse, spam, or fraudulent activity.</li>
+        <li>To troubleshoot issues and improve app reliability.</li>
+        <li>To respond to support requests.</li>
+      </ul>
+
+      <h2>Chat content</h2>
+      <div class="card">
+        <p>
+          Your chat messages are used to generate responses. Depending on how the app is implemented,
+          chat content may be transmitted to a server to process requests.
+        </p>
+        <p>
+          Avoid sharing sensitive information (e.g., passwords, bank details, medical records) in chats.
+        </p>
+      </div>
+
+      <h2>Data sharing</h2>
+      <p>We may share limited information with:</p>
+      <ul>
+        <li><strong>Apple</strong> for payments/subscriptions (In-App Purchases).</li>
+        <li><strong>Service providers</strong> that help us run the app (e.g., hosting, diagnostics), only as needed and under appropriate safeguards.</li>
+        <li><strong>Legal compliance</strong> if required by law or to protect users and the service.</li>
+      </ul>
+      <p><strong>We do not sell your personal data.</strong></p>
+
+      <h2>Advertising</h2>
+      <div class="card">
+        <p>
+          If the app shows ads (e.g., rewarded ads), ad providers may collect device identifiers or related signals
+          to serve and measure ads. You can control ad personalization in your device settings where available.
+        </p>
+      </div>
+
+      <h2>Data retention</h2>
+      <p>
+        We keep data only as long as needed to provide the service, meet legal obligations, resolve disputes,
+        and enforce our agreements. Retention periods can vary by data type.
+      </p>
+
+      <h2>Your choices & rights</h2>
+      <div class="card">
+        <ul>
+          <li>You can manage your subscription through Apple at <code>Settings → Apple ID → Subscriptions</code>.</li>
+          <li>You can request help or deletion requests by emailing <a href="mailto:savagechat@mail.com">savagechat@mail.com</a>.</li>
+          <li>You can disable certain analytics in iOS settings (where applicable).</li>
+        </ul>
+      </div>
+
+      <h2>Security</h2>
+      <p>
+        We use reasonable safeguards to protect information. No method of transmission or storage is 100% secure,
+        but we work to protect your data.
+      </p>
+
+      <h2>Children</h2>
+      <p>
+        Savage Chat is not intended for children under the age required by your local laws. If you believe a child
+        has provided personal information, contact us and we will take appropriate steps.
+      </p>
+
+      <h2>International transfers</h2>
+      <p>
+        Your information may be processed in countries other than where you live. We take steps to ensure appropriate
+        protections are in place.
+      </p>
+
+      <h2>Changes to this policy</h2>
+      <p>
+        We may update this policy from time to time. We will update the “Last updated” date above.
+      </p>
+
+      <h2>Contact</h2>
+      <p>
+        Email: <a href="mailto:savagechat@mail.com">savagechat@mail.com</a>
+      </p>
+
+    </div>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <p>
+        © <span id="year"></span> Savage Chat. All rights reserved.
+      </p>
+      <p class="small">
+        This page is provided for general information and does not constitute legal advice.
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
