@@ -30,11 +30,11 @@
     .wrap{max-width:860px;margin:0 auto;padding:0 16px}
     .brand{
       display:flex;
+      flex-direction:column;           /* ✅ stack logo then title */
       align-items:center;
-      gap:14px;
       justify-content:center;
+      gap:10px;
       text-align:center;
-      flex-wrap:wrap;
     }
     .brand img{
       height:68px;
@@ -103,9 +103,11 @@
     <div class="wrap">
       <div class="brand">
         <!-- ✅ Put your logo file in the same GitHub Pages folder/repo root -->
-        <img src="SavageTransp.png" alt="Savage Chat logo" /> <br>
+        <img src="savageTransp.png" alt="Savage Chat logo" />
+        <!-- ✅ Title now directly under the logo -->
         <h1>Privacy Policy</h1>
       </div>
+
       <p class="sub">
         Savage Chat is designed to be simple, fast, and privacy-minded.
         This policy explains what we collect, why we collect it, and your choices.
